@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link   rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"
+            integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <br>
+    <form action="/auth/login" method="post">
+        <input id="username" name="username" placeholder="Usuario" type="text">
+        <input id="password" name="password" placeholder="Contraseña" type="password">
+        <input type="submit" value="Login">
+    </form>
+    <hr>
+    <button onclick="location.href='/auth/register'">Registro</button>
+
+    
+</body>
+</html>

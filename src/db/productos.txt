@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Escuadra",
+    "descripcion": "Escuadra",
+    "timestamp": 1668647566189,
+    "codigo": "1234567890",
+    "precio": 123.45,
+    "stock": 10,
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "id": 1
+  },
+  {
+    "nombre": "Cuaderno",
+    "descripcion": "Cuaderno Rivadavia",
+    "timestamp": 1668647566189,
+    "codigo": "1234567890",
+    "precio": 123.45,
+    "stock": 7,
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "id": "2"
+  },
+  {
+    "nombre": "Regla",
+    "descripcion": "Regla metrica",
+    "timestamp": 1668647566189,
+    "codigo": "1234567890",
+    "precio": 123.45,
+    "stock": 9,
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",
+    "id": "21"
+  }
+]
